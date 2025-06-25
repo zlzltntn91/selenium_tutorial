@@ -1,22 +1,28 @@
+import random
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
+
 import time
 
 class SeleniumHelper:
-    def __init__(self):
+    def __init__(self, url="http://localhost:8080"):
         options = Options()
         options.add_experimental_option('detach', True)  # 브라우저 자동 닫힘 방지
         options.add_argument("--auto-open-devtools-for-tabs")
         options.add_argument("--window-size=2560,1440")
+        # webdriver.Chrome()의 desired_capabilities는 deprecated, 대신 options에 capability 추가
+        options.set_capability('goog:loggingPrefs', {'browser': 'ALL'})
+        self.url = url
         self.driver = None
         for _ in range(10):
             try:
                 self.driver = webdriver.Chrome(options=options)
-                self.driver.get("http://localhost:8080")
+                self.driver.get(url)
                 WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located((By.ID, "username")))
             except Exception as e:
                 if self.driver is not None:
@@ -28,6 +34,10 @@ class SeleniumHelper:
                     break
                 else:
                     self.driver.quit()
+
+    def get(self, url):
+        self.driver.get(self.url + url)
+        time.sleep(1)
 
     def login(self, username="ADMIN00000", password="qwer1234!"):
         self.driver.execute_script(f'document.querySelector("#username").value = "{username}"')
@@ -68,6 +78,11 @@ class SeleniumHelper:
             EC.presence_of_element_located((by, selector))
         )
         elem.send_keys(file_path)
+
+    def random_korean_name(self):
+        last_names = ['김', '이', '박', '최', '정', '강', '조', '윤', '장', '임']
+        first_names = ['민수', '서연', '지훈', '지민', '현우', '수빈', '예은', '도현', '시우', '하은']
+        return random.choice(last_names) + random.choice(first_names)
 
     def quit(self):
         self.driver.quit()

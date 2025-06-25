@@ -1,22 +1,23 @@
 import time
-
 from selenium_helper import SeleniumHelper
 from selenium.webdriver.common.by import By
 
-helper = SeleniumHelper()
+url = "http://localhost:8080"
+helper = SeleniumHelper(url)
 helper.login()
 
-helper.driver.get('http://localhost:8080/chk/imp/ImplementList')
+helper.get('/chk/imp/ImplementList')
 
 selectRowNum = 3
 helper.wait_and_click(By.CSS_SELECTOR, f'#searchForm table tbody tr:nth-child({selectRowNum}) td:nth-child(2)')
 
 # 안전관계자 등록
 helper.wait_and_click(By.CSS_SELECTOR, '#searchMngUser')
-helper.wait_and_click(By.CSS_SELECTOR, 'span[data-dept-id="4880155"]')
+dept = '4880155'
+helper.wait_and_click(By.CSS_SELECTOR, f'span[data-dept-id="{dept}"]')
 helper.wait_and_select_by_value(By.NAME, 'batchObl', 'CMM6000001')
 helper.wait_and_select_by_value(By.NAME, 'picTy', 'CMM7000001')
-helper.wait_and_select_by_value(By.NAME, 'jbttl', 'CMM5000001')
+helper.wait_and_select_by_value(By.NAME, 'jbttl', 'CMM5000002')
 max_wait = 10  # 최대 10초 대기
 for i in range(max_wait):
     trs = helper.driver.find_elements(By.CSS_SELECTOR, 'tbody[id="sourceBody"] > tr')
@@ -52,7 +53,7 @@ helper.wait_and_send_keys(By.ID, "swpImprvCn", "4")
 # 첨부파일 업로드
 # 파일 업로드 input 요소에 파일 경로 전달
 file_input = helper.driver.find_element(By.CSS_SELECTOR, 'input[id="file-input"]')
-file_input.send_keys('/Users/zlamstn/Downloads/스칼렛아르테 사전예약 양식.docx')
+file_input.send_keys('/Users/zlamstn/Downloads/스칼렛아레 사전예약 양식.docx')
 time.sleep(2)  # 업로드 대기
 
 # 팝업 저장(저장 버튼 클릭)
@@ -104,4 +105,3 @@ for i in range(1, 4):
 helper.driver.execute_script('saveHazard()')
 
 helper.quit()
-

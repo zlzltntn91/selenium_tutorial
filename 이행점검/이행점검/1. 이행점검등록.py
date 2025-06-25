@@ -1,20 +1,21 @@
 import time
-
 from selenium_helper import SeleniumHelper
 from selenium.webdriver.common.by import By
 
-helper = SeleniumHelper()
+dept = '4880155'
+url = "http://localhost:8080"
+helper = SeleniumHelper(url)
 helper.login()
 
-helper.driver.get('http://localhost:8080/chk/imp/ImplementList')
+helper.get('/chk/imp/ImplementList')
 helper.wait_and_click(By.CSS_SELECTOR, '#searchForm table tbody tr td:nth-child(2)')
 
 # 안전관계자 등록
 helper.wait_and_click(By.CSS_SELECTOR, '#searchMngUser')
-helper.wait_and_click(By.CSS_SELECTOR, 'span[data-dept-id="4880155"]')
+helper.wait_and_click(By.CSS_SELECTOR, f'span[data-dept-id="{dept}"]')
 helper.wait_and_select_by_value(By.NAME, 'batchObl', 'CMM6000001')
 helper.wait_and_select_by_value(By.NAME, 'picTy', 'CMM7000001')
-helper.wait_and_select_by_value(By.NAME, 'jbttl', 'CMM5000001')
+helper.wait_and_select_by_value(By.NAME, 'jbttl', 'CMM5000002')
 max_wait = 10  # 최대 10초 대기
 for i in range(max_wait):
     trs = helper.driver.find_elements(By.CSS_SELECTOR, 'tbody[id="sourceBody"] > tr')
