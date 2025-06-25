@@ -10,7 +10,7 @@ helper.login()
 
 helper.get('/chk/imp/ImplementList')
 
-selectRowNum = 4
+selectRowNum = 5
 helper.wait_and_click(By.CSS_SELECTOR, f'#searchForm table tbody tr:nth-child({selectRowNum}) td:nth-child(2)')
 
 # 안전보건관계자 선택
@@ -24,10 +24,10 @@ for idx, row in enumerate(rows, start=1):
     timeStamp = time.strftime("%Y%m%d%H%M%S")
     # 팝업 입력 자동화 (수행업무 등록)
     # 점검예정일자
-    helper.wait_and_send_keys(By.NAME, 'chckPrnmntDt', '2025-07-01')
+    helper.wait_and_send_keys(By.NAME, 'chckPrnmntDt', '2025-07-11')
     # 점검일자(시작, 종료)
-    helper.wait_and_send_keys(By.NAME, 'chckBgngDt', '2025-07-01')
-    helper.wait_and_send_keys(By.NAME, 'chckEndDt', '2025-07-10')
+    helper.wait_and_send_keys(By.NAME, 'chckBgngDt', '2025-08-01')
+    helper.wait_and_send_keys(By.NAME, 'chckEndDt', '2025-09-10')
     # 진행상태
     helper.wait_and_select_by_value(By.NAME, 'cprgrsStts', '01')
     # 점검내용
