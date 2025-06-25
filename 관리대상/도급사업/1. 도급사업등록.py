@@ -126,7 +126,7 @@ helper.driver.execute_script('sendForm();')
 # 사업장 등록 완료 후, 사업장 목록으로 redirect
 
 # 사업장 조회
-helper.wait_and_click(By.CSS_SELECTOR, '#sub-content > div.sub-code-content > div.sub-code-box > div:nth-child(1) > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > div')
+helper.wait_and_click(By.CSS_SELECTOR, '#searchForm > div:nth-child(5) > div > div > div > div.board-type01 > table > tbody > tr > td.text-left.pd_l15 > a > span')
 
 # element가 텍스트를 가질 때까지 대기
 wait = WebDriverWait(helper.driver, 10)

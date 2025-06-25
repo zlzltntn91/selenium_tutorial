@@ -10,32 +10,16 @@ helper.login()
 
 helper.get('/chk/imp/ImplementList')
 
-selectRowNum = 1
+selectRowNum = 4
 helper.wait_and_click(By.CSS_SELECTOR, f'#searchForm table tbody tr:nth-child({selectRowNum}) td:nth-child(2)')
-
-# 안전관계자 등록
-helper.wait_and_click(By.CSS_SELECTOR, '#searchMngUser')
-dept = '4880155'
-helper.wait_and_click(By.CSS_SELECTOR, f'span[data-dept-id="{dept}"]')
-helper.wait_and_select_by_value(By.NAME, 'batchObl', 'CMM6000001')
-helper.wait_and_select_by_value(By.NAME, 'picTy', 'CMM7000001')
-helper.wait_and_select_by_value(By.NAME, 'jbttl', 'CMM5000002')
-max_wait = 10  # 최대 10초 대기
-for i in range(max_wait):
-    trs = helper.driver.find_elements(By.CSS_SELECTOR, 'tbody[id="sourceBody"] > tr')
-    if len(trs) > 1:
-        print(f"tr 개수: {len(trs)}개 - 생성됨")
-        break
-    time.sleep(1)
-helper.wait_and_click(By.CSS_SELECTOR, 'input[name="sourceChkListAll"]')
-helper.wait_and_click(By.CSS_SELECTOR, '#sourceForm > div > div > div > div > div.total-wrap.mg_b10 > div.total-btn-wrap > button')
-helper.driver.execute_script('btnMngUserSave();')
-time.sleep(1)
 
 # 안전보건관계자 선택
 rows = helper.driver.find_elements(By.CSS_SELECTOR, '#implChckTable > tbody > tr')
 for idx, row in enumerate(rows, start=1):
     helper.wait_and_click(By.CSS_SELECTOR, f'#implChckTable > tbody > tr:nth-child({idx})')
+
+    time.sleep(1)
+    helper.driver.execute_script('taskModifyView();')
 
     timeStamp = time.strftime("%Y%m%d%H%M%S")
     # 팝업 입력 자동화 (수행업무 등록)
@@ -55,16 +39,7 @@ for idx, row in enumerate(rows, start=1):
     helper.wait_and_send_keys(By.ID, "swpInCn", "3")
     helper.wait_and_send_keys(By.ID, "swpImprvCn", "4")
 
-    # 첨부파일 업로드
-    # 파일 업로드 input 요소에 파일 경로 전달
-    # file_input = helper.driver.find_element(By.CSS_SELECTOR, 'input[id="file-input"]')
-    # file_input.send_keys('/Users/zlamstn/Downloads/스칼렛아르테 사전예약 양식.docx')
-    # time.sleep(2)  # 업로드 대기
-
-    # 팝업 저장(저장 버튼 클릭)
-    # helper.wait_and_click(By.CSS_SELECTOR, '.pop-code-btn-box .btn-black')
-
-    #유해위험요인 등록
+    # 유해위험요인 등록
     for i in range(3):
         helper.wait_and_click(By.CSS_SELECTOR, '#regHazard')
 
@@ -100,14 +75,21 @@ for idx, row in enumerate(rows, start=1):
         # 현재 위험성 - 위험성
         helper.driver.find_element(By.ID, "curntRisk").send_keys("2")
 
-        # 법적근거
-        for i in range(1, 4):
-            helper.wait_and_click(By.ID, "btnAddHzd")
-            xpath = f'//*[@id="sourceInnerContents"]/tr[{i}]/td[1]/button'
-            helper.wait_and_click_xpath(xpath)
+        # # 법적근거
+        # for i in range(1, 4):
+        #     helper.wait_and_click(By.ID, "btnAddHzd")
+        #     xpath = f'//*[@id="sourceInnerContents"]/tr[{i}]/td[1]/button'
+        #     helper.wait_and_click_xpath(xpath)
+
         helper.driver.execute_script('saveHazard()')
 
-    helper.wait_and_click(By.CSS_SELECTOR, '#pop-content > div.pop-code-btn > div > button.btn-black.pop-custom-btn.waves-effect.waves-light.popclosed-layer')
+    helper.wait_and_click(By.CSS_SELECTOR,
+                          '#pop-content > div.pop-code-btn > div > button.btn-black.pop-custom-btn.waves-effect.waves-light.popclosed-layer')
     time.sleep(1)
+    helper.wait_and_click(By.CSS_SELECTOR,
+                          '#pop-content > div.pop-code-btn > div > button.btn-gray.pop-custom-btn.waves-effect.waves-light.popclosed-layer.custom-close')
+
 
 helper.quit()
+
+

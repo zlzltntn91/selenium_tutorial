@@ -10,7 +10,7 @@ helper.login()
 helper.get('/chk/imp/ImplementList')
 
 time.sleep(1)
-selectRowNum = 3
+selectRowNum = 1
 helper.wait_and_click(By.CSS_SELECTOR, f'#searchForm table tbody tr:nth-child({selectRowNum}) td:nth-child(2)')
 
 helper.wait_and_click(By.CSS_SELECTOR, '#implChckTable > tbody > tr:nth-child(1)')
