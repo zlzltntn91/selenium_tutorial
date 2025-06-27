@@ -9,6 +9,7 @@ from selenium.webdriver.support.ui import Select
 
 import time
 
+
 class SeleniumHelper:
     def __init__(self, url="http://localhost:8080"):
         options = Options()
@@ -37,39 +38,43 @@ class SeleniumHelper:
 
     def get(self, url):
         self.driver.get(self.url + url)
-        time.sleep(1)
+        WebDriverWait(self.driver, 10).until(
+            EC.presence_of_element_located((By.TAG_NAME, "body"))
+        )
 
     def login(self, username="ADMIN00000", password="qwer1234!"):
-        self.driver.execute_script(f'document.querySelector("#username").value = "{username}"')
-        self.driver.execute_script(f'document.querySelector("#password").value = "{password}"')
-        self.driver.execute_script('document.querySelector("#remember").checked = true')
+        self.wait_and_send_keys(By.ID, "username", username)
+        self.wait_and_send_keys(By.ID, "password", password)
+        WebDriverWait(self.driver, 10).until(
+            EC.element_to_be_clickable((By.ID, "remember"))
+        ).click()
         self.driver.execute_script('login()')
         time.sleep(1)
 
-    def wait_and_click(self, by, selector, timeout=10):
+    def wait_and_click(self, by, selector, timeout=15):
         WebDriverWait(self.driver, timeout).until(
             EC.element_to_be_clickable((by, selector))
         ).click()
 
-    def wait_and_send_keys(self, by, selector, value, timeout=10):
+    def wait_and_send_keys(self, by, selector, value, timeout=15):
         elem = WebDriverWait(self.driver, timeout).until(
             EC.visibility_of_element_located((by, selector))
         )
         elem.clear()
         elem.send_keys(value)
 
-    def wait_and_select_by_value(self, by, selector, value, timeout=10):
+    def wait_and_select_by_value(self, by, selector, value, timeout=15):
         elem = WebDriverWait(self.driver, timeout).until(
             EC.visibility_of_element_located((by, selector))
         )
         Select(elem).select_by_value(value)
 
-    def wait_and_click_xpath(self, xpath, timeout=10):
+    def wait_and_click_xpath(self, xpath, timeout=15):
         WebDriverWait(self.driver, timeout).until(
             EC.element_to_be_clickable((By.XPATH, xpath))
         ).click()
 
-    def upload_file(self, by, selector, file_path, timeout=10):
+    def upload_file(self, by, selector, file_path, timeout=15):
         """
         파일 첨부 input에 파일 경로를 입력하여 업로드합니다.
         예: helper.upload_file(By.ID, "fileInput", "/Users/zlamstn/파일경로/파일명.txt")
