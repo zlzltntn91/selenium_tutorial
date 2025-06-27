@@ -44,11 +44,9 @@ helper.wait_and_click(By.CSS_SELECTOR, '#pop-content > div.pop-code-content > di
 helper.driver.execute_script("btnMngSave();")
 
 # 파일 업로드 input 요소에 파일 경로 전달
-file_input = helper.driver.find_element(By.CSS_SELECTOR, 'input[id="file-input"]')
-file_input.send_keys('/Users/zlamstn/Downloads/스칼렛아르테 사전예약 양식.docx')
-
-
-time.sleep(5)
+# file_input = helper.driver.find_element(By.CSS_SELECTOR, 'input[id="file-input"]')
+# file_input.send_keys('/Users/zlamstn/Downloads/스칼렛아르테 사전예약 양식.docx')
+# time.sleep(5)
 
 helper.driver.execute_script('sendForm();')
 helper.quit()

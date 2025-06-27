@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium_helper import SeleniumHelper
 from selenium.webdriver.common.by import By
 
-dept = '4880155'
+dept = '4880145'
 url = "http://localhost:8080"
 
 helper = SeleniumHelper(url)

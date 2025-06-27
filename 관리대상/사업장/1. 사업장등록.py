@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium_helper import SeleniumHelper
 from selenium.webdriver.common.by import By
 
-dept = '4880155'
+dept = '4880145'
 url = "http://localhost:8080"
 helper = SeleniumHelper(url)
 helper.login()
@@ -21,7 +21,7 @@ helper.driver.execute_script('getAddForm()')
 # 담당자정보 등록
 helper.wait_and_click(By.CSS_SELECTOR, '#searchUser')
 time.sleep(1)
-helper.wait_and_click(By.CSS_SELECTOR, '.openUser span[data-dept-id="4880155"]')
+helper.wait_and_click(By.CSS_SELECTOR, f'.openUser span[data-dept-id="{dept}"]')
 time.sleep(1)
 helper.wait_and_click(By.CSS_SELECTOR, '.openUser tbody tr td:nth-child(1)')
 time.sleep(1)
@@ -121,7 +121,7 @@ for i in range(5):
 
 # 안전관계자 등록
 helper.wait_and_click(By.CSS_SELECTOR, '#searchMngUser')
-helper.wait_and_click(By.CSS_SELECTOR, '.openOfficial span[data-dept-id="4880155"]')
+helper.wait_and_click(By.CSS_SELECTOR, f'.openOfficial span[data-dept-id="{dept}"]')
 helper.wait_and_select_by_value(By.NAME, 'batchObl', 'CMM6000001')
 helper.wait_and_select_by_value(By.NAME, 'picTy', 'CMM7000001')
 helper.wait_and_select_by_value(By.NAME, 'jbttl', 'CMM5000002')

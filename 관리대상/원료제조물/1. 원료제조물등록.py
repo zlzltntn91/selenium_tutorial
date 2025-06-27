@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium_helper import SeleniumHelper
 from selenium.webdriver.common.by import By
 
-dept = '4880155'
+dept = '4880145'
 url = "http://localhost:8080"
 helper = SeleniumHelper(url)
 helper.login()
@@ -78,7 +78,7 @@ helper.wait_and_click(By.CSS_SELECTOR, '#tx001')
 
 # 안전관계자 등록
 helper.wait_and_click(By.CSS_SELECTOR, '#searchMngUser')
-helper.wait_and_click(By.CSS_SELECTOR, '.openOfficial span[data-dept-id="4880155"]')
+helper.wait_and_click(By.CSS_SELECTOR, f'.openOfficial span[data-dept-id="{dept}"]')
 helper.wait_and_select_by_value(By.NAME, 'batchObl', 'CMM6000001')
 helper.wait_and_select_by_value(By.NAME, 'picTy', 'CMM7000001')
 helper.wait_and_select_by_value(By.NAME, 'jbttl', 'CMM5000002')
