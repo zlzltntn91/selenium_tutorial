@@ -52,14 +52,17 @@ class SeleniumHelper:
         time.sleep(1)
 
     def wait_and_click(self, by, selector, timeout=15):
-        WebDriverWait(self.driver, timeout).until(
+        elem = WebDriverWait(self.driver, timeout).until(
             EC.element_to_be_clickable((by, selector))
-        ).click()
+        )
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", elem)
+        elem.click()
 
     def wait_and_send_keys(self, by, selector, value, timeout=15):
         elem = WebDriverWait(self.driver, timeout).until(
             EC.visibility_of_element_located((by, selector))
         )
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", elem)
         elem.clear()
         elem.send_keys(value)
 
@@ -67,12 +70,15 @@ class SeleniumHelper:
         elem = WebDriverWait(self.driver, timeout).until(
             EC.visibility_of_element_located((by, selector))
         )
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", elem)
         Select(elem).select_by_value(value)
 
     def wait_and_click_xpath(self, xpath, timeout=15):
-        WebDriverWait(self.driver, timeout).until(
+        elem = WebDriverWait(self.driver, timeout).until(
             EC.element_to_be_clickable((By.XPATH, xpath))
-        ).click()
+        )
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", elem)
+        elem.click()
 
     def upload_file(self, by, selector, file_path, timeout=15):
         """
