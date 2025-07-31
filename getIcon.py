@@ -22,8 +22,8 @@ def get_icon_path():
 
     div = driver.find_element(By.CLASS_NAME, 'popup-layer')
     for icon in div.find_elements(By.TAG_NAME, 'li'):
-        iconName = icon.find_element(By.TAG_NAME, 'i').get_attribute('class')
-        menuName = icon.find_element(By.TAG_NAME, 'span')
-        print(f"update comtnmenuinfo set relate_image_nm = '{iconName}' where menu_nm = '{menuName.text}' and upper_menu_no != 0;")
+        icon_name = icon.find_element(By.TAG_NAME, 'i').get_attribute('class')
+        menu_name = icon.find_element(By.TAG_NAME, 'span')
+        print(f"update comtnmenuinfo set relate_image_nm = '{icon_name}' where menu_nm = '{menu_name.text}' and upper_menu_no != 0;")
 
 get_icon_path()
