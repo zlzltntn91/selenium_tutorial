@@ -7,6 +7,6 @@ files = [
     '도급사업/1. 도급사업등록.py'
 ]
 
-for _ in range(1):
+for _ in range(30):
     for file in files:
         subprocess.run(['python3', file])

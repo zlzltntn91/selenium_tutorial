@@ -16,7 +16,7 @@ selectRowNum = 1
 helper.wait_and_click(By.CSS_SELECTOR, f'#searchForm table tbody tr:nth-child({selectRowNum}) td:nth-child(2)')
 
 # WebDriverWait 객체 생성 (최대 10초 대기)
-wait = WebDriverWait(helper.driver, 10)
+wait = WebDriverWait(helper.driver, 2)
 
 # 안전보건관계자 선택
 rows = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '#implChckTable > tbody > tr')))
