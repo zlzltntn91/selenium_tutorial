@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium_helper import SeleniumHelper
 from selenium.webdriver.common.by import By
 
-dept = '4880145'
+dept = '4880155'
 url = "http://localhost:8080"
 helper = SeleniumHelper(url)
 helper.login()
@@ -71,7 +71,7 @@ time.sleep(1)
 # helper.wait_and_click(By.CSS_SELECTOR, "#pop-content > div.pop-code-content > div.pop-code-box > div > div.pop-screen-wrap > div.pop-screen-wrap-left > div > ul > li > ul > li:nth-child(1) > span")
 
 # 관리형태 체크박스(직접관리 체크)
-helper.wait_and_click(By.CSS_SELECTOR, '#tx001')
+helper.wait_and_click(By.CSS_SELECTOR, '#tx00')
 
 # 기타 내용 입력
 # helper.wait_and_send_keys(By.ID, "mngFclt.etcCn", f"기타내용_{timestamp}")
@@ -85,7 +85,7 @@ helper.wait_and_select_by_value(By.NAME, 'jbttl', 'CMM5000002')
 max_wait = 10  # 최대 10초 대기
 for i in range(max_wait):
     trs = helper.driver.find_elements(By.CSS_SELECTOR, 'tbody[id="sourceBody"] > tr')
-    if len(trs) > 1:
+    if len(trs) > 0:
         # print(f"tr 개수: {len(trs)}개 - 생성됨")
         break
     time.sleep(1)
@@ -99,10 +99,12 @@ helper.driver.execute_script('sendForm();')
 # 사업장 등록 완료 후, 사업장 목록으로 redirect
 
 # 사업장 조회
-helper.wait_and_click(By.CSS_SELECTOR, '#searchForm > div:nth-child(5) > div > div > div > div.board-type01 > table > tbody > tr:nth-child(1) > td.text-left.pd_l15')
+# helper.wait_and_click(By.CSS_SELECTOR, '#searchForm > div:nth-child(5) > div > div > div > div.board-type01 > table > tbody > tr:nth-child(1) > td.text-left.pd_l15')
+
+helper.quit()
 
 # element가 텍스트를 가질 때까지 대기
-wait = WebDriverWait(helper.driver, 10)
+wait = WebDriverWait(helper.driver, 2)
 element = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, 'h1')))
 text = element.text
 if text == title:

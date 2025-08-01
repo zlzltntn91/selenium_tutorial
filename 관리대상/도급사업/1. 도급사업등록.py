@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium_helper import SeleniumHelper
 from selenium.webdriver.common.by import By
 
-dept = '4880145'
+dept = '4880155'
 url = "http://localhost:8080"
 
 helper = SeleniumHelper(url)
@@ -65,7 +65,7 @@ for select_elem in select_elems:
 today = time.strftime("%Y-%m-%d")
 
 # 전화번호
-helper.wait_and_send_keys(By.NAME, "contBiz.telno", f"{timestamp}")
+# helper.wait_and_send_keys(By.NAME, "contBiz.telno", f"{timestamp}")
 # 계약대상명 입력
 helper.wait_and_send_keys(By.NAME, "contBiz.ctrtTrprNm", f"계약대상명 {timestamp}")
 # 계약금액
@@ -96,7 +96,7 @@ helper.wait_and_select_by_value(By.NAME, 'jbttl', 'CMM5000002')
 max_wait = 10  # 최대 10초 대기
 for i in range(max_wait):
     trs = helper.driver.find_elements(By.CSS_SELECTOR, 'tbody[id="sourceBody"] > tr')
-    if len(trs) > 1:
+    if len(trs) > 0:
         # print(f"tr 개수: {len(trs)}개 - 생성됨")
         break
     time.sleep(1)
@@ -127,8 +127,10 @@ helper.driver.execute_script('sendForm();')
 # 사업장 조회
 helper.wait_and_click(By.CSS_SELECTOR, '#searchForm > div:nth-child(5) > div > div > div > div.board-type01 > table > tbody > tr > td.text-left.pd_l15 > a > span')
 
+helper.quit()
+
 # element가 텍스트를 가질 때까지 대기
-wait = WebDriverWait(helper.driver, 10)
+wait = WebDriverWait(helper.driver, 2)
 element = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, 'h1')))
 text = element.text
 if text == title:

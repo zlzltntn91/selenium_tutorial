@@ -16,7 +16,7 @@ selectRowNum = 1
 helper.wait_and_click(By.CSS_SELECTOR, f'#searchForm table tbody tr:nth-child({selectRowNum}) td:nth-child(2)')
 
 # WebDriverWait 객체 생성 (최대 10초 대기)
-wait = WebDriverWait(helper.driver, 10)
+wait = WebDriverWait(helper.driver, 2)
 
 helper.wait_and_click(By.CSS_SELECTOR, '#sub-content > div.sub-code-content > div.sub-code-box > div.pop-code-box-section > div.row > div > div > div > div.total-wrap.mg_b10 > div.total-btn-wrap > button')
 

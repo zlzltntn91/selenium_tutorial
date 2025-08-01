@@ -33,7 +33,7 @@ helper.wait_and_click(By.CSS_SELECTOR, 'span[data-dept-id="4880155"]')
 max_wait = 10  # 최대 10초 대기
 for i in range(max_wait):
     trs = helper.driver.find_elements(By.CSS_SELECTOR, 'tbody[id="sourceBody"] > tr')
-    if len(trs) > 1:
+    if len(trs) > 0:
         print(f"tr 개수: {len(trs)}개 - 생성됨")
 
         break
