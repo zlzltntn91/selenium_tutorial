@@ -1,0 +1,178 @@
+Code: 3940000, Result: {'name': '고양시', 'code': '3940000', 'top_code': '6410000', 'up_code': '6410000', 'full_name': '경기도 고양시', 'degree': '2', 'sn': '590'}
+Code: 3940001, Result: {'name': '의회사무국', 'code': '3940001', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 의회사무국', 'degree': '3', 'sn': '195'}
+Code: 3940046, Result: {'name': '농업기술센터', 'code': '3940046', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 농업기술센터', 'degree': '3', 'sn': '096'}
+Code: 3940077, Result: {'name': '시장', 'code': '3940077', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 시장', 'degree': '3', 'sn': '001'}
+Code: 3940138, Result: {'name': '덕양구보건소', 'code': '3940138', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 덕양구보건소', 'degree': '3', 'sn': '081'}
+Code: 3940139, Result: {'name': '일산동구보건소', 'code': '3940139', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 일산동구보건소', 'degree': '3', 'sn': '083'}
+Code: 3940140, Result: {'name': '일산서구보건소', 'code': '3940140', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 일산서구보건소', 'degree': '3', 'sn': '086'}
+Code: 3940223, Result: {'name': '농업정책과', 'code': '3940223', 'top_code': '6410000', 'up_code': '3940046', 'full_name': '경기도 고양시 농업기술센터 농업정책과', 'degree': '4', 'sn': '003'}
+Code: 3940225, Result: {'name': '연구개발과', 'code': '3940225', 'top_code': '6410000', 'up_code': '3940046', 'full_name': '경기도 고양시 농업기술센터 연구개발과', 'degree': '4', 'sn': '006'}
+Code: 3940244, Result: {'name': '교육문화국', 'code': '3940244', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 교육문화국', 'degree': '3', 'sn': '013'}
+Code: 3940247, Result: {'name': '푸른도시사업소', 'code': '3940247', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 푸른도시사업소', 'degree': '3', 'sn': '110'}
+Code: 3940248, Result: {'name': '상하수도사업소', 'code': '3940248', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 상하수도사업소', 'degree': '3', 'sn': '125'}
+Code: 3940249, Result: {'name': '도서관센터', 'code': '3940249', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 도서관센터', 'degree': '3', 'sn': '119'}
+Code: 3940266, Result: {'name': '문화예술과', 'code': '3940266', 'top_code': '6410000', 'up_code': '3940244', 'full_name': '경기도 고양시 교육문화국 문화예술과', 'degree': '4', 'sn': '002'}
+Code: 3940276, Result: {'name': '녹지과', 'code': '3940276', 'top_code': '6410000', 'up_code': '3940247', 'full_name': '경기도 고양시 푸른도시사업소 녹지과', 'degree': '4', 'sn': '002'}
+Code: 3940279, Result: {'name': '수도행정과', 'code': '3940279', 'top_code': '6410000', 'up_code': '3940248', 'full_name': '경기도 고양시 상하수도사업소 수도행정과', 'degree': '4', 'sn': '002'}
+Code: 3940280, Result: {'name': '수도시설과', 'code': '3940280', 'top_code': '6410000', 'up_code': '3940248', 'full_name': '경기도 고양시 상하수도사업소 수도시설과', 'degree': '4', 'sn': '004'}
+Code: 3940281, Result: {'name': '하수행정과', 'code': '3940281', 'top_code': '6410000', 'up_code': '3940248', 'full_name': '경기도 고양시 상하수도사업소 하수행정과', 'degree': '4', 'sn': '006'}
+Code: 3940300, Result: {'name': '평생교육과', 'code': '3940300', 'top_code': '6410000', 'up_code': '3940244', 'full_name': '경기도 고양시 교육문화국 평생교육과', 'degree': '4', 'sn': '001'}
+Code: 3940307, Result: {'name': '덕양구도서관과', 'code': '3940307', 'top_code': '6410000', 'up_code': '3940249', 'full_name': '경기도 고양시 도서관센터 덕양구도서관과', 'degree': '4', 'sn': '581'}
+Code: 3940308, Result: {'name': '일산동구도서관과', 'code': '3940308', 'top_code': '6410000', 'up_code': '3940249', 'full_name': '경기도 고양시 도서관센터 일산동구도서관과', 'degree': '4', 'sn': '582'}
+Code: 3940309, Result: {'name': '일산서구도서관과', 'code': '3940309', 'top_code': '6410000', 'up_code': '3940249', 'full_name': '경기도 고양시 도서관센터 일산서구도서관과', 'degree': '4', 'sn': '583'}
+Code: 3940310, Result: {'name': '제1부시장', 'code': '3940310', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 제1부시장', 'degree': '3', 'sn': '002'}
+Code: 3940311, Result: {'name': '제2부시장', 'code': '3940311', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 제2부시장', 'degree': '3', 'sn': '003'}
+Code: 3940322, Result: {'name': '농산유통과', 'code': '3940322', 'top_code': '6410000', 'up_code': '3940046', 'full_name': '경기도 고양시 농업기술센터 농산유통과', 'degree': '4', 'sn': '004'}
+Code: 3940324, Result: {'name': '의정담당관', 'code': '3940324', 'top_code': '6410000', 'up_code': '3940001', 'full_name': '경기도 고양시 의회사무국 의정담당관', 'degree': '4', 'sn': '001'}
+Code: 3940362, Result: {'name': '감사관', 'code': '3940362', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 감사관', 'degree': '3', 'sn': '006'}
+Code: 3940363, Result: {'name': '언론홍보담당관', 'code': '3940363', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 언론홍보담당관', 'degree': '3', 'sn': '007'}
+Code: 3940364, Result: {'name': '기획조정실', 'code': '3940364', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 기획조정실', 'degree': '3', 'sn': '008'}
+Code: 3940365, Result: {'name': '자치행정국', 'code': '3940365', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 자치행정국', 'degree': '3', 'sn': '009'}
+Code: 3940368, Result: {'name': '기후환경국', 'code': '3940368', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 기후환경국', 'degree': '3', 'sn': '012'}
+Code: 3940371, Result: {'name': '보건행정과', 'code': '3940371', 'top_code': '6410000', 'up_code': '3940139', 'full_name': '경기도 고양시 일산동구보건소 보건행정과', 'degree': '4', 'sn': '004'}
+Code: 3940372, Result: {'name': '보건행정과', 'code': '3940372', 'top_code': '6410000', 'up_code': '3940140', 'full_name': '경기도 고양시 일산서구보건소 보건행정과', 'degree': '4', 'sn': '004'}
+Code: 3940373, Result: {'name': '도시농업과', 'code': '3940373', 'top_code': '6410000', 'up_code': '3940046', 'full_name': '경기도 고양시 농업기술센터 도시농업과', 'degree': '4', 'sn': '005'}
+Code: 3940374, Result: {'name': '생태하천과', 'code': '3940374', 'top_code': '6410000', 'up_code': '3940247', 'full_name': '경기도 고양시 푸른도시사업소 생태하천과', 'degree': '4', 'sn': '007'}
+Code: 3940377, Result: {'name': '예산담당관', 'code': '3940377', 'top_code': '6410000', 'up_code': '3940364', 'full_name': '경기도 고양시 기획조정실 예산담당관', 'degree': '4', 'sn': '004'}
+Code: 3940378, Result: {'name': '법무담당관', 'code': '3940378', 'top_code': '6410000', 'up_code': '3940364', 'full_name': '경기도 고양시 기획조정실 법무담당관', 'degree': '4', 'sn': '006'}
+Code: 3940379, Result: {'name': '정보통신담당관', 'code': '3940379', 'top_code': '6410000', 'up_code': '3940364', 'full_name': '경기도 고양시 기획조정실 정보통신담당관', 'degree': '4', 'sn': '008'}
+Code: 3940380, Result: {'name': '행정지원과', 'code': '3940380', 'top_code': '6410000', 'up_code': '3940365', 'full_name': '경기도 고양시 자치행정국 행정지원과', 'degree': '4', 'sn': '002'}
+Code: 3940381, Result: {'name': '주민자치과', 'code': '3940381', 'top_code': '6410000', 'up_code': '3940365', 'full_name': '경기도 고양시 자치행정국 주민자치과', 'degree': '4', 'sn': '004'}
+Code: 3940382, Result: {'name': '민원여권과', 'code': '3940382', 'top_code': '6410000', 'up_code': '3940365', 'full_name': '경기도 고양시 자치행정국 민원여권과', 'degree': '4', 'sn': '006'}
+Code: 3940385, Result: {'name': '회계과', 'code': '3940385', 'top_code': '6410000', 'up_code': '3940365', 'full_name': '경기도 고양시 자치행정국 회계과', 'degree': '4', 'sn': '012'}
+Code: 3940395, Result: {'name': '환경정책과', 'code': '3940395', 'top_code': '6410000', 'up_code': '3940368', 'full_name': '경기도 고양시 기후환경국 환경정책과', 'degree': '4', 'sn': '002'}
+Code: 3940397, Result: {'name': '자원순환과', 'code': '3940397', 'top_code': '6410000', 'up_code': '3940368', 'full_name': '경기도 고양시 기후환경국 자원순환과', 'degree': '4', 'sn': '006'}
+Code: 3940398, Result: {'name': '식품안전과', 'code': '3940398', 'top_code': '6410000', 'up_code': '3940368', 'full_name': '경기도 고양시 기후환경국 식품안전과', 'degree': '4', 'sn': '008'}
+Code: 3940412, Result: {'name': '체육정책과', 'code': '3940412', 'top_code': '6410000', 'up_code': '3940244', 'full_name': '경기도 고양시 교육문화국 체육정책과', 'degree': '4', 'sn': '009'}
+Code: 3940415, Result: {'name': '재산관리과', 'code': '3940415', 'top_code': '6410000', 'up_code': '3940365', 'full_name': '경기도 고양시 자치행정국 재산관리과', 'degree': '4', 'sn': '013'}
+Code: 3940418, Result: {'name': '기후에너지과', 'code': '3940418', 'top_code': '6410000', 'up_code': '3940368', 'full_name': '경기도 고양시 기후환경국 기후에너지과', 'degree': '4', 'sn': '002'}
+Code: 3940419, Result: {'name': '관광과', 'code': '3940419', 'top_code': '6410000', 'up_code': '3940244', 'full_name': '경기도 고양시 교육문화국 관광과', 'degree': '4', 'sn': '003'}
+Code: 3940429, Result: {'name': '신청사건립단', 'code': '3940429', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 신청사건립단', 'degree': '3', 'sn': '009'}
+Code: 3940431, Result: {'name': '기획정책관', 'code': '3940431', 'top_code': '6410000', 'up_code': '3940364', 'full_name': '경기도 고양시 기획조정실 기획정책관', 'degree': '4', 'sn': '001'}
+Code: 3940432, Result: {'name': '소통협치담당관', 'code': '3940432', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 소통협치담당관', 'degree': '3', 'sn': '005'}
+Code: 3940433, Result: {'name': '도시디자인담당관', 'code': '3940433', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 도시디자인담당관', 'degree': '3', 'sn': '006'}
+Code: 3940434, Result: {'name': '일자리재정국', 'code': '3940434', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 일자리재정국', 'degree': '3', 'sn': '010'}
+Code: 3940435, Result: {'name': '사회복지국', 'code': '3940435', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 사회복지국', 'degree': '3', 'sn': '011'}
+Code: 3940436, Result: {'name': '시민안전담당관', 'code': '3940436', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 시민안전담당관', 'degree': '3', 'sn': '014'}
+Code: 3940437, Result: {'name': '재난대응담당관', 'code': '3940437', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 재난대응담당관', 'degree': '3', 'sn': '015'}
+Code: 3940438, Result: {'name': '도시주택정책실', 'code': '3940438', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 도시주택정책실', 'degree': '3', 'sn': '016'}
+Code: 3940439, Result: {'name': '자족도시실현국', 'code': '3940439', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 자족도시실현국', 'degree': '3', 'sn': '017'}
+Code: 3940440, Result: {'name': '교통국', 'code': '3940440', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 교통국', 'degree': '3', 'sn': '018'}
+Code: 3940441, Result: {'name': '도시혁신국', 'code': '3940441', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 도시혁신국', 'degree': '3', 'sn': '019'}
+Code: 3940442, Result: {'name': '인적자원과', 'code': '3940442', 'top_code': '6410000', 'up_code': '3940365', 'full_name': '경기도 고양시 자치행정국 인적자원과', 'degree': '4', 'sn': '002'}
+Code: 3940443, Result: {'name': '일자리정책과', 'code': '3940443', 'top_code': '6410000', 'up_code': '3940434', 'full_name': '경기도 고양시 일자리재정국 일자리정책과', 'degree': '4', 'sn': '001'}
+Code: 3940444, Result: {'name': '소상공인지원과', 'code': '3940444', 'top_code': '6410000', 'up_code': '3940434', 'full_name': '경기도 고양시 일자리재정국 소상공인지원과', 'degree': '4', 'sn': '003'}
+Code: 3940445, Result: {'name': '세정과', 'code': '3940445', 'top_code': '6410000', 'up_code': '3940434', 'full_name': '경기도 고양시 일자리재정국 세정과', 'degree': '4', 'sn': '005'}
+Code: 3940446, Result: {'name': '징수과', 'code': '3940446', 'top_code': '6410000', 'up_code': '3940434', 'full_name': '경기도 고양시 일자리재정국 징수과', 'degree': '4', 'sn': '007'}
+Code: 3940447, Result: {'name': '복지정책과', 'code': '3940447', 'top_code': '6410000', 'up_code': '3940435', 'full_name': '경기도 고양시 사회복지국 복지정책과', 'degree': '4', 'sn': '001'}
+Code: 3940448, Result: {'name': '여성가족과', 'code': '3940448', 'top_code': '6410000', 'up_code': '3940435', 'full_name': '경기도 고양시 사회복지국 여성가족과', 'degree': '4', 'sn': '003'}
+Code: 3940449, Result: {'name': '노인복지과', 'code': '3940449', 'top_code': '6410000', 'up_code': '3940435', 'full_name': '경기도 고양시 사회복지국 노인복지과', 'degree': '4', 'sn': '005'}
+Code: 3940450, Result: {'name': '장애인복지과', 'code': '3940450', 'top_code': '6410000', 'up_code': '3940435', 'full_name': '경기도 고양시 사회복지국 장애인복지과', 'degree': '4', 'sn': '007'}
+Code: 3940451, Result: {'name': '아동보육과', 'code': '3940451', 'top_code': '6410000', 'up_code': '3940435', 'full_name': '경기도 고양시 사회복지국 아동보육과', 'degree': '4', 'sn': '009'}
+Code: 3940452, Result: {'name': '도시계획정책관', 'code': '3940452', 'top_code': '6410000', 'up_code': '3940438', 'full_name': '경기도 고양시 도시주택정책실 도시계획정책관', 'degree': '4', 'sn': '001'}
+Code: 3940453, Result: {'name': '주택과', 'code': '3940453', 'top_code': '6410000', 'up_code': '3940438', 'full_name': '경기도 고양시 도시주택정책실 주택과', 'degree': '4', 'sn': '003'}
+Code: 3940454, Result: {'name': '건축정책과', 'code': '3940454', 'top_code': '6410000', 'up_code': '3940438', 'full_name': '경기도 고양시 도시주택정책실 건축정책과', 'degree': '4', 'sn': '005'}
+Code: 3940455, Result: {'name': '토지정보과', 'code': '3940455', 'top_code': '6410000', 'up_code': '3940438', 'full_name': '경기도 고양시 도시주택정책실 토지정보과', 'degree': '4', 'sn': '007'}
+Code: 3940456, Result: {'name': '스마트시티과', 'code': '3940456', 'top_code': '6410000', 'up_code': '3940438', 'full_name': '경기도 고양시 도시주택정책실 스마트시티과', 'degree': '4', 'sn': '009'}
+Code: 3940457, Result: {'name': '경제자유구역추진과', 'code': '3940457', 'top_code': '6410000', 'up_code': '3940439', 'full_name': '경기도 고양시 자족도시실현국 경제자유구역추진과', 'degree': '4', 'sn': '001'}
+Code: 3940458, Result: {'name': '기업지원과', 'code': '3940458', 'top_code': '6410000', 'up_code': '3940439', 'full_name': '경기도 고양시 자족도시실현국 기업지원과', 'degree': '4', 'sn': '003'}
+Code: 3940459, Result: {'name': '전략산업과', 'code': '3940459', 'top_code': '6410000', 'up_code': '3940439', 'full_name': '경기도 고양시 자족도시실현국 전략산업과', 'degree': '4', 'sn': '005'}
+Code: 3940460, Result: {'name': '미래산업과', 'code': '3940460', 'top_code': '6410000', 'up_code': '3940439', 'full_name': '경기도 고양시 자족도시실현국 미래산업과', 'degree': '4', 'sn': '007'}
+Code: 3940461, Result: {'name': '교통정책과', 'code': '3940461', 'top_code': '6410000', 'up_code': '3940440', 'full_name': '경기도 고양시 교통국 교통정책과', 'degree': '4', 'sn': '001'}
+Code: 3940462, Result: {'name': '버스정책과', 'code': '3940462', 'top_code': '6410000', 'up_code': '3940440', 'full_name': '경기도 고양시 교통국 버스정책과', 'degree': '4', 'sn': '003'}
+Code: 3940463, Result: {'name': '주차교통과', 'code': '3940463', 'top_code': '6410000', 'up_code': '3940440', 'full_name': '경기도 고양시 교통국 주차교통과', 'degree': '4', 'sn': '005'}
+Code: 3940464, Result: {'name': '도로정책과', 'code': '3940464', 'top_code': '6410000', 'up_code': '3940440', 'full_name': '경기도 고양시 교통국 도로정책과', 'degree': '4', 'sn': '007'}
+Code: 3940465, Result: {'name': '신도시정비과', 'code': '3940465', 'top_code': '6410000', 'up_code': '3940441', 'full_name': '경기도 고양시 도시혁신국 신도시정비과', 'degree': '4', 'sn': '001'}
+Code: 3940466, Result: {'name': '도시정비과', 'code': '3940466', 'top_code': '6410000', 'up_code': '3940441', 'full_name': '경기도 고양시 도시혁신국 도시정비과', 'degree': '4', 'sn': '003'}
+Code: 3940467, Result: {'name': '도시개발과', 'code': '3940467', 'top_code': '6410000', 'up_code': '3940441', 'full_name': '경기도 고양시 도시혁신국 도시개발과', 'degree': '4', 'sn': '005'}
+Code: 3940468, Result: {'name': '도로건설사업소', 'code': '3940468', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 도로건설사업소', 'degree': '3', 'sn': '129'}
+Code: 3940469, Result: {'name': '보건행정과', 'code': '3940469', 'top_code': '6410000', 'up_code': '3940138', 'full_name': '경기도 고양시 덕양구보건소 보건행정과', 'degree': '4', 'sn': '001'}
+Code: 3940470, Result: {'name': '건강증진과', 'code': '3940470', 'top_code': '6410000', 'up_code': '3940138', 'full_name': '경기도 고양시 덕양구보건소 건강증진과', 'degree': '4', 'sn': '003'}
+Code: 3940471, Result: {'name': '건강증진과', 'code': '3940471', 'top_code': '6410000', 'up_code': '3940139', 'full_name': '경기도 고양시 일산동구보건소 건강증진과', 'degree': '4', 'sn': '005'}
+Code: 3940472, Result: {'name': '건강증진과', 'code': '3940472', 'top_code': '6410000', 'up_code': '3940140', 'full_name': '경기도 고양시 일산서구보건소 건강증진과', 'degree': '4', 'sn': '005'}
+Code: 3940473, Result: {'name': '덕양공원관리과', 'code': '3940473', 'top_code': '6410000', 'up_code': '3940247', 'full_name': '경기도 고양시 푸른도시사업소 덕양공원관리과', 'degree': '4', 'sn': '003'}
+Code: 3940474, Result: {'name': '일산공원관리과', 'code': '3940474', 'top_code': '6410000', 'up_code': '3940247', 'full_name': '경기도 고양시 푸른도시사업소 일산공원관리과', 'degree': '4', 'sn': '005'}
+Code: 3940475, Result: {'name': '공사과', 'code': '3940475', 'top_code': '6410000', 'up_code': '3940468', 'full_name': '경기도 고양시 도로건설사업소 공사과', 'degree': '4', 'sn': '001'}
+Code: 3940476, Result: {'name': '도로관리과', 'code': '3940476', 'top_code': '6410000', 'up_code': '3940468', 'full_name': '경기도 고양시 도로건설사업소 도로관리과', 'degree': '4', 'sn': '003'}
+Code: 3940477, Result: {'name': '차량등록과', 'code': '3940477', 'top_code': '6410000', 'up_code': '3940468', 'full_name': '경기도 고양시 도로건설사업소 차량등록과', 'degree': '4', 'sn': '005'}
+Code: 3950000, Result: {'name': '덕양구', 'code': '3950000', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 덕양구', 'degree': '3', 'sn': '210'}
+Code: 3950014, Result: {'name': '건축과', 'code': '3950014', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 건축과', 'degree': '4', 'sn': '030'}
+Code: 3950016, Result: {'name': '주교동', 'code': '3950016', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 주교동', 'degree': '4', 'sn': '045'}
+Code: 3950017, Result: {'name': '원신동', 'code': '3950017', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 원신동', 'degree': '4', 'sn': '050'}
+Code: 3950018, Result: {'name': '흥도동', 'code': '3950018', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 흥도동', 'degree': '4', 'sn': '055'}
+Code: 3950019, Result: {'name': '성사1동', 'code': '3950019', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 성사1동', 'degree': '4', 'sn': '060'}
+Code: 3950020, Result: {'name': '성사2동', 'code': '3950020', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 성사2동', 'degree': '4', 'sn': '065'}
+Code: 3950021, Result: {'name': '효자동', 'code': '3950021', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 효자동', 'degree': '4', 'sn': '070'}
+Code: 3950023, Result: {'name': '창릉동', 'code': '3950023', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 창릉동', 'degree': '4', 'sn': '080'}
+Code: 3950024, Result: {'name': '고양동', 'code': '3950024', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 고양동', 'degree': '4', 'sn': '085'}
+Code: 3950025, Result: {'name': '관산동', 'code': '3950025', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 관산동', 'degree': '4', 'sn': '090'}
+Code: 3950026, Result: {'name': '능곡동', 'code': '3950026', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 능곡동', 'degree': '4', 'sn': '095'}
+Code: 3950027, Result: {'name': '화정1동', 'code': '3950027', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 화정1동', 'degree': '4', 'sn': '100'}
+Code: 3950028, Result: {'name': '화정2동', 'code': '3950028', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 화정2동', 'degree': '4', 'sn': '105'}
+Code: 3950029, Result: {'name': '행주동', 'code': '3950029', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 행주동', 'degree': '4', 'sn': '110'}
+Code: 3950030, Result: {'name': '행신1동', 'code': '3950030', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 행신1동', 'degree': '4', 'sn': '115'}
+Code: 3950031, Result: {'name': '행신2동', 'code': '3950031', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 행신2동', 'degree': '4', 'sn': '120'}
+Code: 3950032, Result: {'name': '화전동', 'code': '3950032', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 화전동', 'degree': '4', 'sn': '130'}
+Code: 3950033, Result: {'name': '대덕동', 'code': '3950033', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 대덕동', 'degree': '4', 'sn': '135'}
+Code: 3950042, Result: {'name': '행신3동', 'code': '3950042', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 행신3동', 'degree': '4', 'sn': '125'}
+Code: 3950050, Result: {'name': '환경녹지과', 'code': '3950050', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 환경녹지과', 'degree': '4', 'sn': '020'}
+Code: 3950052, Result: {'name': '산업위생과', 'code': '3950052', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 산업위생과', 'degree': '4', 'sn': '018'}
+Code: 3950054, Result: {'name': '시민봉사과', 'code': '3950054', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 시민봉사과', 'degree': '4', 'sn': '004'}
+Code: 3950058, Result: {'name': '자치행정과', 'code': '3950058', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 자치행정과', 'degree': '4', 'sn': '002'}
+Code: 3950059, Result: {'name': '가정복지과', 'code': '3950059', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 가정복지과', 'degree': '4', 'sn': '016'}
+Code: 3950060, Result: {'name': '안전건설과', 'code': '3950060', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 안전건설과', 'degree': '4', 'sn': '022'}
+Code: 3950061, Result: {'name': '교통행정과', 'code': '3950061', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 교통행정과', 'degree': '4', 'sn': '024'}
+Code: 3950063, Result: {'name': '사회복지과', 'code': '3950063', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 사회복지과', 'degree': '4', 'sn': '012'}
+Code: 3950064, Result: {'name': '세무1과', 'code': '3950064', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 세무1과', 'degree': '4', 'sn': '006'}
+Code: 3950065, Result: {'name': '세무2과', 'code': '3950065', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 세무2과', 'degree': '4', 'sn': '008'}
+Code: 3950066, Result: {'name': '청소농정과', 'code': '3950066', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 청소농정과', 'degree': '4', 'sn': '021'}
+Code: 3950067, Result: {'name': '건축물관리과', 'code': '3950067', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 건축물관리과', 'degree': '4', 'sn': '032'}
+Code: 3950068, Result: {'name': '삼송1동', 'code': '3950068', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 삼송1동', 'degree': '4', 'sn': '072'}
+Code: 3950069, Result: {'name': '삼송2동', 'code': '3950069', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 삼송2동', 'degree': '4', 'sn': '076'}
+Code: 3950070, Result: {'name': '행신4동', 'code': '3950070', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 행신4동', 'degree': '4', 'sn': '127'}
+Code: 3950071, Result: {'name': '대민협력관', 'code': '3950071', 'top_code': '6410000', 'up_code': '3950000', 'full_name': '경기도 고양시 덕양구 대민협력관', 'degree': '4', 'sn': '001'}
+Code: 3960100, Result: {'name': '일산동구', 'code': '3960100', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 일산동구', 'degree': '3', 'sn': '215'}
+Code: 3960102, Result: {'name': '세무과', 'code': '3960102', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 세무과', 'degree': '4', 'sn': '008'}
+Code: 3960107, Result: {'name': '건축과', 'code': '3960107', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 건축과', 'degree': '4', 'sn': '028'}
+Code: 3960108, Result: {'name': '식사동', 'code': '3960108', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 식사동', 'degree': '4', 'sn': '104'}
+Code: 3960110, Result: {'name': '정발산동', 'code': '3960110', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 정발산동', 'degree': '4', 'sn': '112'}
+Code: 3960111, Result: {'name': '풍산동', 'code': '3960111', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 풍산동', 'degree': '4', 'sn': '116'}
+Code: 3960113, Result: {'name': '마두1동', 'code': '3960113', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 마두1동', 'degree': '4', 'sn': '124'}
+Code: 3960114, Result: {'name': '마두2동', 'code': '3960114', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 마두2동', 'degree': '4', 'sn': '128'}
+Code: 3960115, Result: {'name': '장항1동', 'code': '3960115', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 장항1동', 'degree': '4', 'sn': '132'}
+Code: 3960116, Result: {'name': '장항2동', 'code': '3960116', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 장항2동', 'degree': '4', 'sn': '136'}
+Code: 3960117, Result: {'name': '고봉동', 'code': '3960117', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 고봉동', 'degree': '4', 'sn': '140'}
+Code: 3960118, Result: {'name': '백석1동', 'code': '3960118', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 백석1동', 'degree': '4', 'sn': '121'}
+Code: 3960119, Result: {'name': '백석2동', 'code': '3960119', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 백석2동', 'degree': '4', 'sn': '123'}
+Code: 3960126, Result: {'name': '환경녹지과', 'code': '3960126', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 환경녹지과', 'degree': '4', 'sn': '019'}
+Code: 3960128, Result: {'name': '산업위생과', 'code': '3960128', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 산업위생과', 'degree': '4', 'sn': '017'}
+Code: 3960130, Result: {'name': '시민봉사과', 'code': '3960130', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 시민봉사과', 'degree': '4', 'sn': '005'}
+Code: 3960134, Result: {'name': '자치행정과', 'code': '3960134', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 자치행정과', 'degree': '4', 'sn': '002'}
+Code: 3960135, Result: {'name': '가정복지과', 'code': '3960135', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 가정복지과', 'degree': '4', 'sn': '015'}
+Code: 3960136, Result: {'name': '안전건설과', 'code': '3960136', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 안전건설과', 'degree': '4', 'sn': '021'}
+Code: 3960137, Result: {'name': '교통행정과', 'code': '3960137', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 교통행정과', 'degree': '4', 'sn': '023'}
+Code: 3960138, Result: {'name': '사회복지과', 'code': '3960138', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 사회복지과', 'degree': '4', 'sn': '012'}
+Code: 3960139, Result: {'name': '중산1동', 'code': '3960139', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 중산1동', 'degree': '4', 'sn': '106'}
+Code: 3960140, Result: {'name': '중산2동', 'code': '3960140', 'top_code': '6410000', 'up_code': '3960100', 'full_name': '경기도 고양시 일산동구 중산2동', 'degree': '4', 'sn': '110'}
+Code: 4100100, Result: {'name': '일산서구', 'code': '4100100', 'top_code': '6410000', 'up_code': '3940000', 'full_name': '경기도 고양시 일산서구', 'degree': '3', 'sn': '220'}
+Code: 4100102, Result: {'name': '세무과', 'code': '4100102', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 세무과', 'degree': '4', 'sn': '008'}
+Code: 4100107, Result: {'name': '건축과', 'code': '4100107', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 건축과', 'degree': '4', 'sn': '028'}
+Code: 4100108, Result: {'name': '일산1동', 'code': '4100108', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 일산1동', 'degree': '4', 'sn': '104'}
+Code: 4100109, Result: {'name': '일산2동', 'code': '4100109', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 일산2동', 'degree': '4', 'sn': '108'}
+Code: 4100110, Result: {'name': '일산3동', 'code': '4100110', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 일산3동', 'degree': '4', 'sn': '112'}
+Code: 4100112, Result: {'name': '주엽1동', 'code': '4100112', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 주엽1동', 'degree': '4', 'sn': '120'}
+Code: 4100113, Result: {'name': '주엽2동', 'code': '4100113', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 주엽2동', 'degree': '4', 'sn': '124'}
+Code: 4100114, Result: {'name': '대화동', 'code': '4100114', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 대화동', 'degree': '4', 'sn': '128'}
+Code: 4100115, Result: {'name': '송포동', 'code': '4100115', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 송포동', 'degree': '4', 'sn': '132'}
+Code: 4100123, Result: {'name': '환경녹지과', 'code': '4100123', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 환경녹지과', 'degree': '4', 'sn': '019'}
+Code: 4100125, Result: {'name': '산업위생과', 'code': '4100125', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 산업위생과', 'degree': '4', 'sn': '017'}
+Code: 4100127, Result: {'name': '시민봉사과', 'code': '4100127', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 시민봉사과', 'degree': '4', 'sn': '005'}
+Code: 4100131, Result: {'name': '자치행정과', 'code': '4100131', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 자치행정과', 'degree': '4', 'sn': '002'}
+Code: 4100132, Result: {'name': '가정복지과', 'code': '4100132', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 가정복지과', 'degree': '4', 'sn': '015'}
+Code: 4100133, Result: {'name': '안전건설과', 'code': '4100133', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 안전건설과', 'degree': '4', 'sn': '024'}
+Code: 4100134, Result: {'name': '교통행정과', 'code': '4100134', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 교통행정과', 'degree': '4', 'sn': '026'}
+Code: 4100135, Result: {'name': '사회복지과', 'code': '4100135', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 사회복지과', 'degree': '4', 'sn': '012'}
+Code: 4100136, Result: {'name': '탄현1동', 'code': '4100136', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 탄현1동', 'degree': '4', 'sn': '114'}
+Code: 4100137, Result: {'name': '탄현2동', 'code': '4100137', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 탄현2동', 'degree': '4', 'sn': '118'}
+Code: 4100138, Result: {'name': '덕이동', 'code': '4100138', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 덕이동', 'degree': '4', 'sn': '137'}
+Code: 4100139, Result: {'name': '가좌동', 'code': '4100139', 'top_code': '6410000', 'up_code': '4100100', 'full_name': '경기도 고양시 일산서구 가좌동', 'degree': '4', 'sn': '139'}
