@@ -1,6 +1,7 @@
 import random
 
 from selenium import webdriver
+from selenium.webdriver import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -42,14 +43,16 @@ class SeleniumHelper:
             EC.presence_of_element_located((By.TAG_NAME, "body"))
         )
 
-    def login(self, username="ADMIN00000", password="qwer1234!"):
+    def login(self, username="58727428b", password="0000"):
         self.wait_and_send_keys(By.ID, "username", username)
         self.wait_and_send_keys(By.ID, "password", password)
         WebDriverWait(self.driver, 10).until(
             EC.element_to_be_clickable((By.ID, "remember"))
         ).click()
-        self.driver.execute_script('login()')
+        # self.driver.execute_script('login()')
         time.sleep(1)
+
+        self.wait_and_click(By.CSS_SELECTOR, "button[type='submit']")
 
     def wait_and_click(self, by, selector, timeout=15):
         elem = WebDriverWait(self.driver, timeout).until(

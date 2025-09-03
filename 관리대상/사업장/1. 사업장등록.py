@@ -9,19 +9,27 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium_helper import SeleniumHelper
 from selenium.webdriver.common.by import By
 
-dept = '4880155'
+dept = '3950000'
+dept2 = '3950060'
+
+# driver.find_element(By.CSS_SELECTOR, '.openDepartment span[data-dept-id="3950000"]').click()
+# driver.find_element(By.CSS_SELECTOR, '.openDepartment span[data-dept-id="3950060"]').click()
 url = "http://localhost:8080"
+# url = "http://100.11.1.244:8090"
 helper = SeleniumHelper(url)
-helper.login()
+helper.login('ADMIN00000', 'qwer1234!')
 
 
+WebDriverWait(helper.driver, 10).until(EC.visibility_of_element_located((By.CSS_SELECTOR, 'a[data-url^="/chk/pln"]')))
 helper.get('/mng/wop/workplaceList')
 helper.driver.execute_script('getAddForm()')
 
 # 담당자정보 등록
 helper.wait_and_click(By.CSS_SELECTOR, '#searchUser')
 time.sleep(1)
+
 helper.wait_and_click(By.CSS_SELECTOR, f'.openUser span[data-dept-id="{dept}"]')
+helper.wait_and_click(By.CSS_SELECTOR, f'.openUser span[data-dept-id="{dept2}"]')
 time.sleep(1)
 helper.wait_and_click(By.CSS_SELECTOR, '.openUser tbody tr td:nth-child(1)')
 time.sleep(1)
@@ -124,6 +132,7 @@ for i in range(5):
 # 안전관계자 등록
 helper.wait_and_click(By.CSS_SELECTOR, '#searchMngUser')
 helper.wait_and_click(By.CSS_SELECTOR, f'.openOfficial span[data-dept-id="{dept}"]')
+helper.wait_and_click(By.CSS_SELECTOR, f'.openOfficial span[data-dept-id="{dept2}"]')
 helper.wait_and_select_by_value(By.NAME, 'batchObl', 'CMM6000001')
 helper.wait_and_select_by_value(By.NAME, 'picTy', 'CMM7000001')
 helper.wait_and_select_by_value(By.NAME, 'jbttl', 'CMM5000002')
